@@ -27,20 +27,23 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className='Contenedor-ME'>
+      <div>
       <h1>Maestros</h1>
       <ul>
         {maestros.map((maestro) => (
           <li key={maestro.id}>{maestro.nombre}</li>
         ))}
       </ul>
-
+      </div>
+      <div>
       <h1>Alumnos</h1>
       <ul>
         {alumnos.map(alumno => (
           <li key={alumno.id}>{alumno.nombre}</li>
         ))}
       </ul>
+      </div>
     </div>
   );
 }

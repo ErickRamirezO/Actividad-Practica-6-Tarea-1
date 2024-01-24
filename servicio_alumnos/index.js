@@ -8,6 +8,10 @@ app.use(cors()); // Habilita CORS
 const alumnos = [
   { id: 1, nombre: 'Esteban Montalvo' },
   { id: 2, nombre: 'Marco Herrera' },
+  { id: 3, nombre: 'Erick Ramirez' },
+  { id: 4, nombre: 'Marley Morales' },
+  { id: 5, nombre: 'Steven Pozo' },
+  { id: 6, nombre: 'Diego Dual' },
   // ... otros alumnos
 ];
 
