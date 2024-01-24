@@ -7,7 +7,7 @@
 
 ## Instrucciones
 
-Instalamos todas las dependencias tanto en servicio_alumnos, servicio_cliente y servicio_profesores usando el comando
+Instalamos todas las dependencias desde la carpeta raiz para que los microservicios funcionen usando el siguiente comando:
 ```bash
 npm install
 ```
@@ -17,7 +17,8 @@ En servicio_alumnos y servicio_profesores iniciamos los microservicios con:
 node index.js
 ```
 
-En servicio_cliente dado que trabajamos con Vite, podemos iniciar el servidor de desarollo previamente iniciando todos los microservicios
+En servicio_cliente dado que trabajamos con Vite, debemos instalar todas las dependencias e iniciamos el servidor de desarollo previamente iniciando todos los microservicios
 ```bash
+npm install
 npm run dev
 ```
